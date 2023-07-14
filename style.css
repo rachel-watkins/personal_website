@@ -1,0 +1,60 @@
+header{
+  background-color: rgb(200, 111, 222);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.name{
+  color: black;
+  text-align: left;
+  margin: .25em;
+  font-size: 50pt;
+  font-family: 'Times New Roman', Times, serif;
+}
+.links {
+  float: right;
+}
+
+.links a {
+  text-decoration: none;
+  color: inherit;
+  margin-left: .25em;
+  font-size: 25pt;
+}
+
+.links a:first-of-type {
+  margin-left: 0;
+}
+
+.links a.active {
+  border-bottom: 1px solid #555;
+}
+main{
+  background-color: rgb(204, 182, 243);
+  padding: 64px 24px 96px;
+  box-shadow: 0 0 12px -2px black;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+footer{
+  background-color: rgb(200, 111, 222);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: rgb(200, 111, 222);
+  font-size: 20pt;
+  font-family: 'Times New Roman', Times, serif;
+}
+.quote{
+  text-align: center;
+  font-family: cursive;
+  font-size: 45pt;
+}
+h1{
+  text-decoration: underline;
+}
+body{
+  background-color: rgb(141, 89, 232);
+}
