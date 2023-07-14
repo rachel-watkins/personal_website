@@ -89,3 +89,18 @@ section:nth-of-type(even) > img {
 section {
   border-top: 1px dotted black;
 }
+.port{
+  text-decoration: none;
+  border-bottom: 2pt solid black;
+}
+.sec{
+  border: none;
+  background-color: rgb(200, 111, 222);
+  padding-left: .2cm;
+  padding-right: .2cm;
+  padding-top: .05cm;
+  padding-bottom: .05cm;
+}
+.h22{
+  border-bottom: dashed 2pt black;
+}
