@@ -20,7 +20,7 @@ header{
   text-decoration: none;
   color: inherit;
   margin-left: .25em;
-  font-size: 25pt;
+  font-size: 20pt;
 }
 
 .links a:first-of-type {
@@ -29,6 +29,10 @@ header{
 
 .links a.active {
   border-bottom: 1px solid #555;
+}
+.links a:hover{
+  color: floralwhite;
+  text-decoration: underline;
 }
 main{
   background-color: rgb(204, 182, 243);
@@ -103,4 +107,30 @@ section {
 }
 .h22{
   border-bottom: dashed 2pt black;
+}
+.success{
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60pt;
+}
+.contact{
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 2pt solid black;
+}
+.success2{
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20pt;
+}
+.grid{
+  display: grid;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40pt;
+  gap: 55px;
+  padding: 2px;
+  margin-top: 10px;
 }
