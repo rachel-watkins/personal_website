@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="javascript.js"></script>
+</head>
+<body>
+  <div>
+    <header>
+      <span class="name">Rachel Watkins</span>
+      <nav class="links">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+    </header>
+  </div>
+  <div>
+    <main>
+      <h1 class="contact">Did you enjoy this website? Are you interested in learning more about Rachel Watkins? If your answer was yes to both of those questions please fill out the form below to get in contact with her.</h1>
+      <form action="successpage.html">
+        <p>
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname">
+        </p>
+        <p>
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname">
+        </p>
+        <p>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone">
+        </p>
+        <p>
+          <label for="email">Email Address:</label>
+          <input type="email" id="email">
+        </p>
+        <p>
+          <label for="select">Please select the best way to reach you:</label>
+          <select name="select" id= "select">
+            <option value="1">Select One</option>
+            <option value="phone">Phone</option>
+            <option value="email">Email</option>
+          </select>
+        </p>
+        <p>
+          <label for="textarea">Please leave any additional comments below:</label><br><br>
+          <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+          <button>Submit</button>
+        </p>
+      </form>
+    </main>
+  </div>
+  <div>
+    <footer>
+      <p>Footer</p>
+    </footer>
+  </div>
+</body>
+</html>
